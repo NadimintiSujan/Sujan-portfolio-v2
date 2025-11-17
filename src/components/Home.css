@@ -585,6 +585,28 @@
     padding: 1.1rem;
   }
 
+  .education-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    gap: 0.65rem;
+  }
+
+  .education-card > :not(.education-logo-wrapper) {
+    width: 100%;
+  }
+
+  .education-logo-wrapper {
+    width: 64px;
+    height: 64px;
+  }
+
+  .education-meta {
+    order: 3;
+    align-self: flex-start;
+  }
+
   .project-card p {
     font-size: 0.95rem;
   }
@@ -621,16 +643,24 @@
 
   .education-card {
     grid-template-columns: 1fr;
+    gap: 0.75rem;
   }
 
   .education-card h3 {
-    font-size: 1rem;
+    font-size: 1.05rem;
   }
 
   .education-meta {
     justify-self: flex-start;
     margin-top: 0.5rem;
     font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    order: 3;
+  }
+
+  .education-card ul {
+    padding-left: 1rem;
+    font-size: 0.9rem;
   }
 
   .experience-card-header h3 {
