@@ -1,11 +1,27 @@
 # Sujan Portfolio
 
-This is my personal portfolio website built using React.
+This is the second iteration of my React portfolio, rebuilt with a split-panel layout, scroll-snapping sections, and a dedicated project archive.
 
-It includes:
-- About section
-- Resume
-- Project gallery with GitHub links
-- Contact form powered by Formspree
+## Highlights
 
-Deployed on Netlify: [sujannportfolio.netlify.app](sujannportfolio.netlify.app)
+- Hero + bio, education timeline, and detailed experience cards.
+- Responsive layout tuned for large screens and phones (sticky nav on desktop, stacked layout on mobile).
+- Project grid with tags plus a chronological archive view.
+- Custom cursor spotlight, reveal animations, and downloadable resume link.
+
+## Tech Stack
+
+- React + Hooks
+- CSS (no frameworks) with custom animations and responsive breakpoints
+- React Icons
+
+## Run Locally
+
+```bash
+npm install
+npm start
+```
+
+## Deployment
+
+Currently deployed on Netlify: [sujannportfolio.netlify.app](https://sujannportfolio.netlify.app)
