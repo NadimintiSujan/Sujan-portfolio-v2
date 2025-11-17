@@ -1,20 +1,35 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Header from './components/Header';
-import About from './pages/Home'; // or About if renamed
-import Resume from './pages/Resume';
-import Work from './pages/Work';
+import React, { useEffect, useState } from 'react';
+import Home from './pages/Home';
+import ProjectArchive from './pages/ProjectArchive';
+import './App.css';
 
 function App() {
+  const [view, setView] = useState('home');
+
+  useEffect(() => {
+    if (typeof document === 'undefined') return undefined;
+
+    const className = 'app-lock-scroll';
+    const body = document.body;
+
+    if (view === 'home') {
+      body.classList.add(className);
+    } else {
+      body.classList.remove(className);
+    }
+
+    return () => body.classList.remove(className);
+  }, [view]);
+
   return (
-    <Router>
-      <Header />
-      <Routes>
-        <Route path="/work" element={<Work />} />
-        <Route path="/" element={<About />} />
-        <Route path="/resume" element={<Resume />} />
-      </Routes>
-    </Router>
+    <div className="app-shell">
+      <div className="cursor-spotlight" />
+      {view === 'home' ? (
+        <Home onViewArchive={() => setView('archive')} />
+      ) : (
+        <ProjectArchive onBack={() => setView('home')} />
+      )}
+    </div>
   );
 }
 

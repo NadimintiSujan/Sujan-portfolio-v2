@@ -1,0 +1,60 @@
+const projects = [
+  {
+    name: 'Gator Library',
+    description: 'Command-line search platform using Red-Black Trees & Binary Heaps to surface rare volumes instantly.',
+    link: 'https://github.com/NadimintiSujan/Gator-Library',
+    tags: ['Python', 'Data Structures'],
+    year: 2024,
+    madeAt: 'UF',
+  },
+  {
+    name: 'COVID-19 Severity Predictor',
+    description: 'ML workflow that scores patient risk, backed by Flask microservices and AWS deployments.',
+    link: 'https://github.com/NadimintiSujan/covid-predictor',
+    tags: ['Scikit-learn', 'React', 'Flask', 'Docker', 'AWS'],
+    year: 2024,
+    madeAt: 'Independent',
+  },
+  {
+    name: 'Real Estate Trend Analyzer',
+    description: 'End-to-end dashboards for real estate data with Oracle SQL, Express.js, and React visualizations.',
+    link: 'https://github.com/NadimintiSujan/Real-Estate-Trend-Analysis',
+    tags: ['Oracle SQL', 'Node.js', 'Express.js', 'React.js', 'REST APIs'],
+    year: 2023,
+    madeAt: 'UF',
+  },
+  {
+    name: 'Live Sign Language Interpretation',
+    description: 'Customized ML pipeline translating gestures to text in real time.',
+    link: 'https://github.com/NadimintiSujan/Sign-Language-Translation',
+    tags: ['TensorFlow', 'OpenCV', 'MediaPipe', 'LSTM'],
+    year: 2023,
+    madeAt: 'VIT',
+  },
+  {
+    name: 'Personal Budget Tracker',
+    description: 'Financial planner with PostgreSQL, Next.js, and Prisma delivering instant cash-flow insights.',
+    link: 'https://github.com/NadimintiSujan/Personal-budget-tracker',
+    tags: ['Next.js', 'PostgreSQL', 'Prisma', 'CRUD'],
+    year: 2025,
+    madeAt: 'Independent',
+  },
+  {
+    name: 'Internet Chatting',
+    description: 'Multithreaded C++ chat service with socket-level encryption and desktop UI.',
+    link: 'https://github.com/NadimintiSujan/internet-chatting',
+    tags: ['C++', 'Socket Programming', 'TCP/IP'],
+    year: 2024,
+    madeAt: 'UF',
+  },
+  {
+    name: 'Concrete Crack Detection',
+    description: 'Multithreaded C++ chat service with socket-level encryption and desktop UI.',
+    link: 'https://github.com/NadimintiSujan/Concrete-Crack-Detection',
+    tags: ['C++', 'Socket Programming', 'TCP/IP'],
+    year: 2022,
+    madeAt: 'Independent',
+  },
+];
+
+export default projects;
