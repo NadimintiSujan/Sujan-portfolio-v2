@@ -24,4 +24,4 @@ npm start
 
 ## Deployment
 
-Currently deployed on Netlify: [sujannportfolio.netlify.app](https://sujannportfolio.netlify.app)
+Currently deployed on Netlify: [Click Here!](https://sujan-portfolio-v2.netlify.app)
