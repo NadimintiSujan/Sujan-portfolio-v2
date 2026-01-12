@@ -39,16 +39,16 @@ const experience = [
     summary:
       'Building scalable microservices and deployment pipelines for a high-volume healthcare platform.',
   highlights: [
-    'Improved API performance by 52% using Java, Spring Boot, async processing, and caching.',
-    'Optimized data access with Hibernate, cutting query latency by 30%.',
-    'Reduced deployment errors by 35% by enhancing CI/CD via GitHub Actions, Docker, and Kubernetes.',
+    'Improved API performance by 52% using .NET Core, Java, async processing, and caching.',
+    'Optimized data access, cutting query latency by 30%.',
+    'Reduced deployment errors by 35% by enhancing CI/CD, Docker, and Kubernetes.',
     'Delivered modular MVC architecture to accelerate development and improve maintainability.'
     ],
-    tags: ['Java', 'Spring Boot', 'RESTful APIs', 'MySQL', 'Hibernate', 'GitHub Actions', 'Docker', 'Kubernetes', 'JUnit', 'Mockito', 'Redis']
+    tags: ['.NET Core', 'Spring Boot', 'RESTful APIs', 'MySQL', 'Docker', 'Kubernetes', 'Redis']
   },
   {
     role: 'Software Developer',
-    company: 'TEA Lab, United States',
+    company: 'University of Florida, United States',
     time: 'Jan 2024 — May 2025',
     summary:
       'Developed ML-powered workflows, full-stack solutions, optimized databases, and automated workflows on cloud.',
@@ -58,7 +58,7 @@ const experience = [
       'Increased customer engagement by 25% using React.js, Node.js, and Power BI.',
       'Reduced cloud costs by 25% by deploying scalable pipelines on AWS.'
     ],
-    tags: ['Python', 'Machine Learning', 'PostgreSQL', 'React.js', 'Node.js', 'Power BI', 'PyTorch', 'CUDA', 'AWS']
+    tags: ['Python', 'Machine Learning', 'PostgreSQL', 'ASP.NET Core', 'React.js', 'Node.js', 'Power BI', 'PyTorch', 'CUDA', 'AWS']
   },
   {
     role: 'Software Engineer (Research)',
